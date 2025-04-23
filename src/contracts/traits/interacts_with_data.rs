@@ -42,7 +42,7 @@ pub trait InteractsWithData {
     }
 
     ///
-    /// Execute the closure when the data contains the key 
+    // / Execute the closure when the data contains the key 
     /// 
     // fn when_has<T, F>(&self, key: &String, callback: F, default: Option<T>) -> T
     // where
