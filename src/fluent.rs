@@ -153,6 +153,7 @@ impl Arrayable for Fluent {
 #[cfg(test)]
 mod test {
     use super::*;
+    use crate::fluent;
 
     #[test]
     fn test_fluent_macro() {
